@@ -1,8 +1,6 @@
 # [ICLR 2026] Tackling Heavy-Tailed Q-Value Bias in Offline-to-Online Reinforcement Learning with Laplace-Robust Modeling
 
-\> ***\*Authors:\****
-
-Ruibo Guo, Lei Liu*, Rui Yang, Junjie Shen, Guoping Wu, Jie Wang, Bin Li
+\> ***\*Authors:\**** Ruibo Guo, Lei Liu*, Rui Yang, Junjie Shen, Guoping Wu, Jie Wang, Bin Li
 
 
 
@@ -35,9 +33,10 @@ pip install -e .
 
 ## 3. Getting Started
 
-### Train 
+### Train
 
 #### MuJoco-v2
+
 You  should first pretrain agents and save the models in the directory './models', and then online fine-tune pretrained agents.
 
 ```
