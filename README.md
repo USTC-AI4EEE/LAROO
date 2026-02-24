@@ -1,6 +1,6 @@
 # [ICLR 2026] Tackling Heavy-Tailed Q-Value Bias in Offline-to-Online Reinforcement Learning with Laplace-Robust Modeling
 
-\> ***\*Authors:\**** Ruibo Guo, Lei Liu*, Rui Yang, Junjie Shen, Guoping Wu, Jie Wang, Bin Li
+**Authors:** Ruibo Guo, Lei Liu*, Rui Yang, Junjie Shen, Guoping Wu, Jie Wang, Bin Li
 
 
 
