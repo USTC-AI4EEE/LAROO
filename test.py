@@ -132,15 +132,15 @@ if __name__ == "__main__":
 
 	if load_model == True:
 		load_path = './results'
-		policy.load_policy(seed=args.seed,name=f'LAROO_{args.env}',load_path=load_path)
+		policy.load_policy(seed=args.seed,name=f'TD3BC_ensemble_{args.env}',load_path=load_path)
 		print('='*30)
-		print('model load done..., file name is ', f'LAROO_{args.env}', '\n', '='*30)
+		print('model load done..., file name is ', f'TD3BC_ensemble_{args.env}', '\n', '='*30)
 
 	if load_model == True:
 		load_path = './results'
-		exploration_policy.load_policy(seed=args.seed,name=f'LAROO_{args.env}',load_path=load_path)
+		exploration_policy.load_policy(seed=args.seed,name=f'TD3BC_ensemble_{args.env}',load_path=load_path)
 		print('='*30)
-		print('exploration model load done..., file name is ', f'LAROO_{args.env}', '\n', '='*30)
+		print('exploration model load done..., file name is ', f'TD3BC_ensemble_{args.env}', '\n', '='*30)
 
 	replay_buffer = utils.ReplayBuffer(state_dim, action_dim, mask_prob, device, max_size=int(1e6))
 	
